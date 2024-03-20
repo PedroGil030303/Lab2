@@ -1,0 +1,130 @@
+.avatar{
+    float: left;
+    margin: 0 50px 0 0;
+}
+
+h1 img{
+    border-radius: 20%;
+}
+
+h1 span{
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 50px;
+    margin-top: 90px;
+}
+
+h2{
+    text-align: left;
+}
+
+.buttons {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.profile-button,
+.logout-button {
+    padding: 10px 20px;
+    margin-left: 10px;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+}
+
+.tabela {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.tabela th, .tabela td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.tabela th {
+    background-color: #f2f2f2;
+}
+
+.botaotarefa{
+    float: right;
+    text-align: right;
+}
+
+.h1_perfil {
+
+    margin-left: 35%;
+    margin-top: 140px;
+}
+
+.fundo {
+    background-color: bisque;
+}
+
+.fundo2 {
+    background-color: white;
+}
+
+.centrar{   
+    margin-left: 33%;
+    height: 400px; 
+    width: 500px;
+    border: 1px solid #ccc; /* para visualização */
+    background-color: beige;
+}
+
+.img_topo{
+    margin-top: 20px;
+    margin-left: 170px;
+}
+
+.perfil{
+    margin-left: 30px;
+}
+
+input[type="text"] {
+    width: 450px; 
+    margin-left: 20px;
+}
+
+.button_gravar {
+    position: absolute;
+    bottom: 18%;
+    left: 46%;
+    background-color: green; /* Cor de fundo verde */
+    color: white; /* Cor do texto branco */
+    padding: 10px 20px; /* Espaçamento interno */
+    font-size: 16px; /* Tamanho da fonte */
+}
+
+.modal {
+    display: none;
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    background-color: rgba(0,0,0,0.4); 
+    overflow: auto; 
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; 
+    padding: 20px;
+    border: 1px solid #888;
+    width: 30%; 
+    border-radius: 10px;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}

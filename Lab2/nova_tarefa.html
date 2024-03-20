@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nova Tarefa</title>
+</head>
+<body>
+    <button class="caixa" onclick="abrirModal()"> Nova Tarefa</button>
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="fecharModal()">&times;</span>
+
+            <div class="center">
+                <p><h1>Nova Tarefa</h1></p>
+                <h2>Descrição</h2>
+                <p></p>
+                <input type="text">
+                <p></p>
+                <input type="date" >
+                <p></p>
+                <button onclick="fecharModal()">Gravar</button>
+            </div>
+
+        </div>
+    </div>
+<script>
+    function abrirModal() {
+        var modal = document.getElementById("myModal");
+        modal.style.display = "block";
+    }
+
+    function fecharModal() {
+        var modal = document.getElementById("myModal");
+        modal.style.display = "none";
+    }
+</script>
+
+</body>
+</html>
